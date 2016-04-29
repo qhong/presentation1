@@ -26,10 +26,10 @@ library(knitr)
 --- .class #id 
 
 ## Plot with rChart
-```{r, echo = FALSE, results = 'hide'}
+```{r, echo = FALSE, message = F, results = 'hide'}
 require(rCharts)
 ```
-```{r echo = FALSE, results = 'asis'}
+```{r echo = FALSE, message = F, results = 'asis'}
 haireye = as.data.frame(HairEyeColor)
 n1 <- nPlot(Freq ~ Hair, group = 'Eye', type = 'multiBarChart',
   data = subset(haireye, Sex == 'Male')
