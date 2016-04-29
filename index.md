@@ -24,14 +24,6 @@ knit        : slidify::knit2slides
 
 ## Plot with rChart
 
-```
-## Loading required package: rCharts
-```
-
-```
-## Loading required package: base64enc
-```
-
 <iframe src="n1.html" width=100%, height=600></iframe>
 
 --- &radio
